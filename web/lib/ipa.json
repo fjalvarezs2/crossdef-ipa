@@ -1,0 +1,29 @@
+{
+  "phonemes": [
+    {
+      "ipa": "a",
+      "exampleFr": "ami",
+      "exampleEn": "cat"
+    },
+    {
+      "ipa": "e",
+      "exampleFr": "été",
+      "exampleEn": "say"
+    },
+    {
+      "ipa": "i",
+      "exampleFr": "ici",
+      "exampleEn": "see"
+    },
+    {
+      "ipa": "o",
+      "exampleFr": "eau",
+      "exampleEn": "go"
+    },
+    {
+      "ipa": "u",
+      "exampleFr": "où",
+      "exampleEn": "food"
+    }
+  ]
+}

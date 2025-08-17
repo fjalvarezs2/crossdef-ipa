@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Build / temp
+dist/
+coverage/
+*.log
+
+# Local servers & caches
+.webcache/
+.tmp/
+
+# ZIPs / extras you don’t want in git
+extras/
+*.zip
+
+# Editor
+.idea/
+.vscode/

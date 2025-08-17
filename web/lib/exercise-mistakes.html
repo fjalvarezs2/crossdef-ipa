@@ -1,0 +1,10 @@
+<div>
+  <h4>Mistakes</h4>
+  <table ng-table="tableParams" class="table table-striped table-condensed">
+    <tr ng-repeat="e in $data">
+      <td data-title="'Expected'">{{e.ortho}}</td>
+      <td data-title="'Typed'">{{e.userOrtho}}</td>
+      <td data-title="'IPA'">{{e.ipa}}</td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,86 @@
+.hearing-typed { margin-left: 8px; }/* === Crossdef UI fixes === */
+
+/* Header layout & sizing */
+.header-toolbar { background-color: #009688 !important; color: #fff !important; min-height: 56px; }
+.md-toolbar-tools.header-tools { flex-wrap: nowrap; align-items: center; }
+.left-tools, .center-tools, .right-tools { display: flex; align-items: center; flex: 0 0 auto; }
+
+/* Keep the select compact so it doesn't overlap the title */
+.header-select { min-width: 240px; max-width: 340px; }
+.header-select .md-select-value { color: #ffffff !important; border-bottom-color: rgba(255,255,255,0.6) !important; }
+.header-select .md-select-icon { color: #ffffff !important; fill: #ffffff !important; }
+
+/* Title, badge, and logo */
+.header-title { margin-right: 12px; font-size: 18px; font-weight: 400; white-space: nowrap; }
+.brand-badge { margin-right: 12px; background: #ffffff !important; color: #00695C !important; font-weight: 700; border-radius: 6px; padding: 4px 10px; line-height: 20px; }
+.brand-logo { height: 38px; width: auto; max-width: 180px; display: inline-block; }
+.header-toolbar img { max-width: none; } /* prevent global img rules from stretching the logo */
+
+/* Space below toolbar */
+.body-style { padding-top: 8px; }
+
+/* Input row alignment */
+.input-ortho { margin-top: 8px; }
+.hearing-typed { margin-left: 8px; }
+
+/* Smaller screens: hide long title to avoid wrapping */
+@media (max-width: 1024px) {
+  .header-select { min-width: 180px; max-width: 220px; }
+  .header-title { display: none; }
+}
+/* === IPA alignment & size === */
+.ipa-row { display:flex; align-items:baseline; margin-top:4px; }
+.ipa-label { width: 120px; min-width:120px; color:#607d8b; font-size:14px; text-transform:none; }
+.ipa-value { font-family: "Noto Sans", "Noto Sans Symbols 2", "Charis SIL", system-ui, sans-serif;
+             font-size: 28px; line-height: 1.25; letter-spacing: 0.01em; }
+
+/* Tighten the 'Type what you hear' label spacing */
+.input-ortho .md-input-container > label { margin-bottom: 2px; }
+
+/* === Mistakes table alignment === */
+.mistakes-container table { width:100%; table-layout:fixed; }
+.mistakes-container th, .mistakes-container td { padding:8px 10px; vertical-align:middle; }
+.mistakes-container td:nth-child(1) { width:33%; }
+.mistakes-container td:nth-child(2) { width:33%; }
+.mistakes-container td:nth-child(3) { width:34%; font-family: "Noto Sans", "Noto Sans Symbols 2", "Charis SIL", system-ui, sans-serif; font-size:20px; }
+.mistakes-container th { color:#607d8b; font-weight:600; }
+/* Mistakes table — align header with body */
+.mistakes-container table { width:100%; table-layout: fixed; }
+
+.mistakes-container thead th,
+.mistakes-container tbody td {
+    text-align: left;
+    padding: 8px 10px;
+    vertical-align: middle;
+}
+
+/* Same fixed widths for header + body */
+.mistakes-container thead th:nth-child(1),
+.mistakes-container tbody td:nth-child(1) { width: 33%; }
+.mistakes-container thead th:nth-child(2),
+.mistakes-container tbody td:nth-child(2) { width: 33%; }
+.mistakes-container thead th:nth-child(3),
+.mistakes-container tbody td:nth-child(3) { width: 34%; }
+
+/* ng-table sometimes centers headers; force left */
+.mistakes-container .ng-table th { text-align: left !important; }
+
+/* Larger, IPA-friendly header for the 3rd column (optional) */
+.mistakes-container thead th:nth-child(3) {
+    font-family: "Noto Sans","Noto Sans Symbols 2","Charis SIL",system-ui,sans-serif;
+}
+
+/* IPA switch spacing */
+.ipa-switch { margin-left: 12px; }
+/* === Accent toolbar === */
+.accent-toolbar { margin-top: 6px; display:flex; align-items:center; gap:6px; }
+.accent-btn { min-width: 36px; padding: 0 8px; font-weight: 600; }
+.accent-hint { margin-left: 8px; color:#607d8b; font-size:12px; }
+/* === Accent toolbar styles === */
+.accent-toolbar { margin: 8px 0 4px; gap: 6px; }
+.accent-hint { margin-right: 6px; color:#607d8b; font-size: 12px; }
+.accent-btn { min-width: 28px; padding: 0 8px; line-height: 24px; height: 24px; }
+.accent-toolbar { display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-top:6px; }
+.accent-label { margin-right:4px; color:#607d8b; }
+.accent-btn { min-width:28px; padding:2px 6px; border:0; border-radius:4px; cursor:pointer; }
+

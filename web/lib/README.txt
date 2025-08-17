@@ -1,0 +1,1 @@
+Copy all JSON files to web/lib/ and refresh. Ensure $scope.domainServer = "lib/" in french_ex.js

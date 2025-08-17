@@ -1,0 +1,150 @@
+
+
+.logo {
+
+  width: 190px;
+  height: 48px;
+  display: inline-block;
+  background-color: #009688;
+  -webkit-mask: url(/web/20180822051801im_/http://crossdef.com/lib/logo2.svg) no-repeat 50% 50%;
+  mask: url(/web/20180822051801im_/http://crossdef.com/lib/logo2.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+
+}
+
+#ex-trend {
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+.phoneme-char-div {
+   word-spacing: -3px;
+   letter-spacing: -3px;
+}
+
+.phoneme-char-span {
+   word-spacing: normal;
+   letter-spacing: normal;
+   display: inline-block;
+}
+
+.custom-tooltip {
+    font-size: 20px !important;
+}
+
+#parent-ex-card {
+  align-items: top;
+    padding: 30px;
+}
+
+#ex-info {
+
+    padding-bottom: 30px;
+}
+
+#floater {
+    float: left;
+    height: 10%;
+    width: 10%;
+    margin-bottom: -50px;
+}
+
+#doughnut {
+   height: 64px !important;
+   width: 120px !important;
+}
+
+
+.ex-progress {
+  margin-bottom: 10px;
+}
+
+.hearing {
+  padding: 0px;
+  border: 0;
+  
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+
+}
+.ex-card {
+    clear: both;
+
+    margin: 10px;
+    font-size: 25px;
+
+}
+
+ 
+.md-button.md-fab {
+  line-height: 3.6rem !important;
+  min-width: 0;
+  width: 3.6rem !important;
+  height: 3.6rem !important;
+  border-radius: 50%;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+
+}
+
+md-icon {
+    fill: #009688;
+    color: #009688;
+}
+
+.input-ortho {
+   padding-top: 30px;
+}
+mistakes-container {
+    padding: 30px;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+}
+
+.word-def {
+  padding-left: 5px;
+}
+
+.body-style {
+    margin: 0px;
+}
+
+.md-top.md-center {
+       left: 50%;
+       top: 80%;
+       transform: translate3d(-50%, 0, 0);
+}
+
+md-toast.md-success-toast-theme .md-toast-content {
+    background-color: #009688;
+}
+
+md-toast.md-error-toast-theme .md-toast-content {
+    background-color: #f7464a;
+}
+
+/*
+     FILE ARCHIVED ON 05:18:01 Aug 22, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:48:33 Aug 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.663
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.013
+  esindex: 0.013
+  cdx.remote: 7.858
+  LoadShardBlock: 257.354 (3)
+  PetaboxLoader3.datanode: 206.717 (5)
+  PetaboxLoader3.resolve: 441.398 (3)
+  load_resource: 858.125 (2)
+*/

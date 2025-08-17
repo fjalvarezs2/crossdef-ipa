@@ -1,0 +1,622 @@
+{
+  "exercises": [
+    {
+      "ortho": "être"
+    },
+    {
+      "ortho": "avoir"
+    },
+    {
+      "ortho": "faire"
+    },
+    {
+      "ortho": "dire"
+    },
+    {
+      "ortho": "pouvoir"
+    },
+    {
+      "ortho": "aller"
+    },
+    {
+      "ortho": "voir"
+    },
+    {
+      "ortho": "vouloir"
+    },
+    {
+      "ortho": "venir"
+    },
+    {
+      "ortho": "devoir"
+    },
+    {
+      "ortho": "prendre"
+    },
+    {
+      "ortho": "donner"
+    },
+    {
+      "ortho": "parler"
+    },
+    {
+      "ortho": "mettre"
+    },
+    {
+      "ortho": "savoir"
+    },
+    {
+      "ortho": "passer"
+    },
+    {
+      "ortho": "croire"
+    },
+    {
+      "ortho": "aimer"
+    },
+    {
+      "ortho": "penser"
+    },
+    {
+      "ortho": "trouver"
+    },
+    {
+      "ortho": "je"
+    },
+    {
+      "ortho": "tu"
+    },
+    {
+      "ortho": "il"
+    },
+    {
+      "ortho": "elle"
+    },
+    {
+      "ortho": "nous"
+    },
+    {
+      "ortho": "vous"
+    },
+    {
+      "ortho": "ils"
+    },
+    {
+      "ortho": "on"
+    },
+    {
+      "ortho": "me"
+    },
+    {
+      "ortho": "te"
+    },
+    {
+      "ortho": "se"
+    },
+    {
+      "ortho": "le"
+    },
+    {
+      "ortho": "la"
+    },
+    {
+      "ortho": "les"
+    },
+    {
+      "ortho": "là"
+    },
+    {
+      "ortho": "lui"
+    },
+    {
+      "ortho": "leur"
+    },
+    {
+      "ortho": "y"
+    },
+    {
+      "ortho": "en"
+    },
+    {
+      "ortho": "qui"
+    },
+    {
+      "ortho": "que"
+    },
+    {
+      "ortho": "quoi"
+    },
+    {
+      "ortho": "où"
+    },
+    {
+      "ortho": "quand"
+    },
+    {
+      "ortho": "pourquoi"
+    },
+    {
+      "ortho": "comment"
+    },
+    {
+      "ortho": "oui"
+    },
+    {
+      "ortho": "non"
+    },
+    {
+      "ortho": "ici"
+    },
+    {
+      "ortho": "là-bas"
+    },
+    {
+      "ortho": "bon"
+    },
+    {
+      "ortho": "bien"
+    },
+    {
+      "ortho": "mal"
+    },
+    {
+      "ortho": "beaucoup"
+    },
+    {
+      "ortho": "peu"
+    },
+    {
+      "ortho": "toujours"
+    },
+    {
+      "ortho": "jamais"
+    },
+    {
+      "ortho": "encore"
+    },
+    {
+      "ortho": "déjà"
+    },
+    {
+      "ortho": "après"
+    },
+    {
+      "ortho": "avant"
+    },
+    {
+      "ortho": "sur"
+    },
+    {
+      "ortho": "sous"
+    },
+    {
+      "ortho": "dans"
+    },
+    {
+      "ortho": "entre"
+    },
+    {
+      "ortho": "avec"
+    },
+    {
+      "ortho": "sans"
+    },
+    {
+      "ortho": "devant"
+    },
+    {
+      "ortho": "derrière"
+    },
+    {
+      "ortho": "chez"
+    },
+    {
+      "ortho": "de"
+    },
+    {
+      "ortho": "du"
+    },
+    {
+      "ortho": "des"
+    },
+    {
+      "ortho": "au"
+    },
+    {
+      "ortho": "aux"
+    },
+    {
+      "ortho": "à"
+    },
+    {
+      "ortho": "pour"
+    },
+    {
+      "ortho": "par"
+    },
+    {
+      "ortho": "comme"
+    },
+    {
+      "ortho": "contre"
+    },
+    {
+      "ortho": "ce"
+    },
+    {
+      "ortho": "cette"
+    },
+    {
+      "ortho": "ces"
+    },
+    {
+      "ortho": "un"
+    },
+    {
+      "ortho": "une"
+    },
+    {
+      "ortho": "mon"
+    },
+    {
+      "ortho": "ma"
+    },
+    {
+      "ortho": "mes"
+    },
+    {
+      "ortho": "ton"
+    },
+    {
+      "ortho": "ta"
+    },
+    {
+      "ortho": "tes"
+    },
+    {
+      "ortho": "son"
+    },
+    {
+      "ortho": "sa"
+    },
+    {
+      "ortho": "ses"
+    },
+    {
+      "ortho": "notre"
+    },
+    {
+      "ortho": "nos"
+    },
+    {
+      "ortho": "votre"
+    },
+    {
+      "ortho": "vos"
+    },
+    {
+      "ortho": "leur"
+    },
+    {
+      "ortho": "leurs"
+    },
+    {
+      "ortho": "homme"
+    },
+    {
+      "ortho": "femme"
+    },
+    {
+      "ortho": "enfant"
+    },
+    {
+      "ortho": "ami"
+    },
+    {
+      "ortho": "amie"
+    },
+    {
+      "ortho": "père"
+    },
+    {
+      "ortho": "mère"
+    },
+    {
+      "ortho": "fils"
+    },
+    {
+      "ortho": "fille"
+    },
+    {
+      "ortho": "frère"
+    },
+    {
+      "ortho": "sœur"
+    },
+    {
+      "ortho": "jour"
+    },
+    {
+      "ortho": "nuit"
+    },
+    {
+      "ortho": "temps"
+    },
+    {
+      "ortho": "année"
+    },
+    {
+      "ortho": "mois"
+    },
+    {
+      "ortho": "semaine"
+    },
+    {
+      "ortho": "heure"
+    },
+    {
+      "ortho": "minute"
+    },
+    {
+      "ortho": "seconde"
+    },
+    {
+      "ortho": "travail"
+    },
+    {
+      "ortho": "maison"
+    },
+    {
+      "ortho": "ville"
+    },
+    {
+      "ortho": "pays"
+    },
+    {
+      "ortho": "monde"
+    },
+    {
+      "ortho": "vie"
+    },
+    {
+      "ortho": "main"
+    },
+    {
+      "ortho": "tête"
+    },
+    {
+      "ortho": "yeux"
+    },
+    {
+      "ortho": "voix"
+    },
+    {
+      "ortho": "eau"
+    },
+    {
+      "ortho": "feu"
+    },
+    {
+      "ortho": "air"
+    },
+    {
+      "ortho": "terre"
+    },
+    {
+      "ortho": "route"
+    },
+    {
+      "ortho": "voiture"
+    },
+    {
+      "ortho": "porte"
+    },
+    {
+      "ortho": "table"
+    },
+    {
+      "ortho": "chaise"
+    },
+    {
+      "ortho": "lit"
+    },
+    {
+      "ortho": "pain"
+    },
+    {
+      "ortho": "vin"
+    },
+    {
+      "ortho": "fromage"
+    },
+    {
+      "ortho": "café"
+    },
+    {
+      "ortho": "thé"
+    },
+    {
+      "ortho": "sucre"
+    },
+    {
+      "ortho": "sel"
+    },
+    {
+      "ortho": "viande"
+    },
+    {
+      "ortho": "poisson"
+    },
+    {
+      "ortho": "ouvrir"
+    },
+    {
+      "ortho": "fermer"
+    },
+    {
+      "ortho": "entrer"
+    },
+    {
+      "ortho": "sortir"
+    },
+    {
+      "ortho": "monter"
+    },
+    {
+      "ortho": "descendre"
+    },
+    {
+      "ortho": "manger"
+    },
+    {
+      "ortho": "boire"
+    },
+    {
+      "ortho": "lire"
+    },
+    {
+      "ortho": "écrire"
+    },
+    {
+      "ortho": "écouter"
+    },
+    {
+      "ortho": "regarder"
+    },
+    {
+      "ortho": "jouer"
+    },
+    {
+      "ortho": "apprendre"
+    },
+    {
+      "ortho": "comprendre"
+    },
+    {
+      "ortho": "connaître"
+    },
+    {
+      "ortho": "tenir"
+    },
+    {
+      "ortho": "laisser"
+    },
+    {
+      "ortho": "appeler"
+    },
+    {
+      "ortho": "répondre"
+    },
+    {
+      "ortho": "demander"
+    },
+    {
+      "ortho": "essayer"
+    },
+    {
+      "ortho": "rendre"
+    },
+    {
+      "ortho": "arriver"
+    },
+    {
+      "ortho": "partir"
+    },
+    {
+      "ortho": "rester"
+    },
+    {
+      "ortho": "tomber"
+    },
+    {
+      "ortho": "porter"
+    },
+    {
+      "ortho": "acheter"
+    },
+    {
+      "ortho": "vendre"
+    },
+    {
+      "ortho": "payer"
+    },
+    {
+      "ortho": "marcher"
+    },
+    {
+      "ortho": "courir"
+    },
+    {
+      "ortho": "dormir"
+    },
+    {
+      "ortho": "rêver"
+    },
+    {
+      "ortho": "rire"
+    },
+    {
+      "ortho": "pleurer"
+    },
+    {
+      "ortho": "grand"
+    },
+    {
+      "ortho": "petit"
+    },
+    {
+      "ortho": "jeune"
+    },
+    {
+      "ortho": "vieux"
+    },
+    {
+      "ortho": "nouveau"
+    },
+    {
+      "ortho": "vrai"
+    },
+    {
+      "ortho": "faux"
+    },
+    {
+      "ortho": "beau"
+    },
+    {
+      "ortho": "joli"
+    },
+    {
+      "ortho": "laid"
+    },
+    {
+      "ortho": "chaud"
+    },
+    {
+      "ortho": "froid"
+    },
+    {
+      "ortho": "long"
+    },
+    {
+      "ortho": "court"
+    },
+    {
+      "ortho": "fort"
+    },
+    {
+      "ortho": "faible"
+    },
+    {
+      "ortho": "proche"
+    },
+    {
+      "ortho": "loin"
+    },
+    {
+      "ortho": "premier"
+    },
+    {
+      "ortho": "dernier"
+    }
+  ]
+}

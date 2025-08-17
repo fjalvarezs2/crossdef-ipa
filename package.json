@@ -1,0 +1,18 @@
+{
+  "name": "crossdef-recovered",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve:api": "node server/transcriptioner.js",
+    "serve:web": "http-server web -p 8081",
+    "dev": "concurrently -k -r \"npm:serve:api\" \"npm:serve:web\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "http-server": "^14.1.1"
+  }
+}

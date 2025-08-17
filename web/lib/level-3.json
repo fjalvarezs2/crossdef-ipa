@@ -1,0 +1,454 @@
+{
+  "exercises": [
+    {
+      "ortho": "baguette"
+    },
+    {
+      "ortho": "fromage"
+    },
+    {
+      "ortho": "croissant"
+    },
+    {
+      "ortho": "restaurant"
+    },
+    {
+      "ortho": "boulangerie"
+    },
+    {
+      "ortho": "pâtisserie"
+    },
+    {
+      "ortho": "chocolat"
+    },
+    {
+      "ortho": "bière"
+    },
+    {
+      "ortho": "vin"
+    },
+    {
+      "ortho": "champagne"
+    },
+    {
+      "ortho": "pain"
+    },
+    {
+      "ortho": "beurre"
+    },
+    {
+      "ortho": "confiture"
+    },
+    {
+      "ortho": "moutarde"
+    },
+    {
+      "ortho": "mayonnaise"
+    },
+    {
+      "ortho": "yaourt"
+    },
+    {
+      "ortho": "huile"
+    },
+    {
+      "ortho": "vinaigre"
+    },
+    {
+      "ortho": "sel"
+    },
+    {
+      "ortho": "poivre"
+    },
+    {
+      "ortho": "carotte"
+    },
+    {
+      "ortho": "tomate"
+    },
+    {
+      "ortho": "oignon"
+    },
+    {
+      "ortho": "pomme"
+    },
+    {
+      "ortho": "poire"
+    },
+    {
+      "ortho": "banane"
+    },
+    {
+      "ortho": "orange"
+    },
+    {
+      "ortho": "citron"
+    },
+    {
+      "ortho": "raisin"
+    },
+    {
+      "ortho": "fraise"
+    },
+    {
+      "ortho": "poulet"
+    },
+    {
+      "ortho": "boeuf"
+    },
+    {
+      "ortho": "porc"
+    },
+    {
+      "ortho": "agneau"
+    },
+    {
+      "ortho": "poisson"
+    },
+    {
+      "ortho": "crabe"
+    },
+    {
+      "ortho": "crevette"
+    },
+    {
+      "ortho": "saumon"
+    },
+    {
+      "ortho": "thon"
+    },
+    {
+      "ortho": "omelette"
+    },
+    {
+      "ortho": "étoile"
+    },
+    {
+      "ortho": "planète"
+    },
+    {
+      "ortho": "lune"
+    },
+    {
+      "ortho": "soleil"
+    },
+    {
+      "ortho": "galaxie"
+    },
+    {
+      "ortho": "univers"
+    },
+    {
+      "ortho": "science"
+    },
+    {
+      "ortho": "physique"
+    },
+    {
+      "ortho": "chimie"
+    },
+    {
+      "ortho": "biologie"
+    },
+    {
+      "ortho": "histoire"
+    },
+    {
+      "ortho": "géographie"
+    },
+    {
+      "ortho": "littérature"
+    },
+    {
+      "ortho": "philosophie"
+    },
+    {
+      "ortho": "psychologie"
+    },
+    {
+      "ortho": "sociologie"
+    },
+    {
+      "ortho": "économie"
+    },
+    {
+      "ortho": "politique"
+    },
+    {
+      "ortho": "droit"
+    },
+    {
+      "ortho": "ingénieur"
+    },
+    {
+      "ortho": "logiciel"
+    },
+    {
+      "ortho": "programme"
+    },
+    {
+      "ortho": "application"
+    },
+    {
+      "ortho": "base de données"
+    },
+    {
+      "ortho": "serveur"
+    },
+    {
+      "ortho": "client"
+    },
+    {
+      "ortho": "réseau"
+    },
+    {
+      "ortho": "algorithme"
+    },
+    {
+      "ortho": "interface"
+    },
+    {
+      "ortho": "sécurité"
+    },
+    {
+      "ortho": "culture"
+    },
+    {
+      "ortho": "tradition"
+    },
+    {
+      "ortho": "coutume"
+    },
+    {
+      "ortho": "langue"
+    },
+    {
+      "ortho": "dialecte"
+    },
+    {
+      "ortho": "accent"
+    },
+    {
+      "ortho": "grammaire"
+    },
+    {
+      "ortho": "orthographe"
+    },
+    {
+      "ortho": "prononciation"
+    },
+    {
+      "ortho": "traduction"
+    },
+    {
+      "ortho": "artiste"
+    },
+    {
+      "ortho": "peintre"
+    },
+    {
+      "ortho": "sculpteur"
+    },
+    {
+      "ortho": "musicien"
+    },
+    {
+      "ortho": "chanteur"
+    },
+    {
+      "ortho": "acteur"
+    },
+    {
+      "ortho": "écrivain"
+    },
+    {
+      "ortho": "poète"
+    },
+    {
+      "ortho": "journaliste"
+    },
+    {
+      "ortho": "photographe"
+    },
+    {
+      "ortho": "football"
+    },
+    {
+      "ortho": "tennis"
+    },
+    {
+      "ortho": "rugby"
+    },
+    {
+      "ortho": "basket"
+    },
+    {
+      "ortho": "natation"
+    },
+    {
+      "ortho": "athlétisme"
+    },
+    {
+      "ortho": "randonnée"
+    },
+    {
+      "ortho": "ski"
+    },
+    {
+      "ortho": "voile"
+    },
+    {
+      "ortho": "escalade"
+    },
+    {
+      "ortho": "frontière"
+    },
+    {
+      "ortho": "gouvernement"
+    },
+    {
+      "ortho": "parlement"
+    },
+    {
+      "ortho": "ministre"
+    },
+    {
+      "ortho": "élection"
+    },
+    {
+      "ortho": "loi"
+    },
+    {
+      "ortho": "justice"
+    },
+    {
+      "ortho": "police"
+    },
+    {
+      "ortho": "prison"
+    },
+    {
+      "ortho": "tribunal"
+    },
+    {
+      "ortho": "écologie"
+    },
+    {
+      "ortho": "climat"
+    },
+    {
+      "ortho": "énergie"
+    },
+    {
+      "ortho": "nucléaire"
+    },
+    {
+      "ortho": "pétrole"
+    },
+    {
+      "ortho": "gaz"
+    },
+    {
+      "ortho": "charbon"
+    },
+    {
+      "ortho": "solaire"
+    },
+    {
+      "ortho": "éolien"
+    },
+    {
+      "ortho": "hydrogène"
+    },
+    {
+      "ortho": "accident"
+    },
+    {
+      "ortho": "urgence"
+    },
+    {
+      "ortho": "assurance"
+    },
+    {
+      "ortho": "contrat"
+    },
+    {
+      "ortho": "dossier"
+    },
+    {
+      "ortho": "procédure"
+    },
+    {
+      "ortho": "règlement"
+    },
+    {
+      "ortho": "norme"
+    },
+    {
+      "ortho": "autorisation"
+    },
+    {
+      "ortho": "interdiction"
+    },
+    {
+      "ortho": "expression"
+    },
+    {
+      "ortho": "métaphore"
+    },
+    {
+      "ortho": "comparaison"
+    },
+    {
+      "ortho": "synonyme"
+    },
+    {
+      "ortho": "antonyme"
+    },
+    {
+      "ortho": "homonyme"
+    },
+    {
+      "ortho": "homophone"
+    },
+    {
+      "ortho": "paronyme"
+    },
+    {
+      "ortho": "suffixe"
+    },
+    {
+      "ortho": "préfixe"
+    },
+    {
+      "ortho": "compagnie"
+    },
+    {
+      "ortho": "entreprise"
+    },
+    {
+      "ortho": "industrie"
+    },
+    {
+      "ortho": "commerce"
+    },
+    {
+      "ortho": "agriculture"
+    },
+    {
+      "ortho": "tourisme"
+    },
+    {
+      "ortho": "transport"
+    },
+    {
+      "ortho": "logistique"
+    },
+    {
+      "ortho": "immobilier"
+    },
+    {
+      "ortho": "start-up"
+    }
+  ]
+}

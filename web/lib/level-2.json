@@ -1,0 +1,574 @@
+{
+  "exercises": [
+    {
+      "ortho": "bonjour"
+    },
+    {
+      "ortho": "merci"
+    },
+    {
+      "ortho": "s'il vous plaît"
+    },
+    {
+      "ortho": "pardon"
+    },
+    {
+      "ortho": "désolé"
+    },
+    {
+      "ortho": "bienvenue"
+    },
+    {
+      "ortho": "au revoir"
+    },
+    {
+      "ortho": "salut"
+    },
+    {
+      "ortho": "d'accord"
+    },
+    {
+      "ortho": "peut-être"
+    },
+    {
+      "ortho": "toujours"
+    },
+    {
+      "ortho": "souvent"
+    },
+    {
+      "ortho": "parfois"
+    },
+    {
+      "ortho": "rarement"
+    },
+    {
+      "ortho": "jamais"
+    },
+    {
+      "ortho": "bientôt"
+    },
+    {
+      "ortho": "tout de suite"
+    },
+    {
+      "ortho": "hier"
+    },
+    {
+      "ortho": "aujourd'hui"
+    },
+    {
+      "ortho": "demain"
+    },
+    {
+      "ortho": "matin"
+    },
+    {
+      "ortho": "midi"
+    },
+    {
+      "ortho": "après-midi"
+    },
+    {
+      "ortho": "soir"
+    },
+    {
+      "ortho": "semaine"
+    },
+    {
+      "ortho": "week-end"
+    },
+    {
+      "ortho": "lundi"
+    },
+    {
+      "ortho": "mardi"
+    },
+    {
+      "ortho": "mercredi"
+    },
+    {
+      "ortho": "jeudi"
+    },
+    {
+      "ortho": "vendredi"
+    },
+    {
+      "ortho": "samedi"
+    },
+    {
+      "ortho": "dimanche"
+    },
+    {
+      "ortho": "hiver"
+    },
+    {
+      "ortho": "printemps"
+    },
+    {
+      "ortho": "été"
+    },
+    {
+      "ortho": "automne"
+    },
+    {
+      "ortho": "froid"
+    },
+    {
+      "ortho": "chaud"
+    },
+    {
+      "ortho": "pluie"
+    },
+    {
+      "ortho": "neige"
+    },
+    {
+      "ortho": "vent"
+    },
+    {
+      "ortho": "nuage"
+    },
+    {
+      "ortho": "soleil"
+    },
+    {
+      "ortho": "ombre"
+    },
+    {
+      "ortho": "ciel"
+    },
+    {
+      "ortho": "mer"
+    },
+    {
+      "ortho": "montagne"
+    },
+    {
+      "ortho": "forêt"
+    },
+    {
+      "ortho": "rivière"
+    },
+    {
+      "ortho": "île"
+    },
+    {
+      "ortho": "plage"
+    },
+    {
+      "ortho": "chambre"
+    },
+    {
+      "ortho": "cuisine"
+    },
+    {
+      "ortho": "salle"
+    },
+    {
+      "ortho": "salon"
+    },
+    {
+      "ortho": "jardin"
+    },
+    {
+      "ortho": "bureau"
+    },
+    {
+      "ortho": "école"
+    },
+    {
+      "ortho": "université"
+    },
+    {
+      "ortho": "livre"
+    },
+    {
+      "ortho": "journal"
+    },
+    {
+      "ortho": "lettre"
+    },
+    {
+      "ortho": "histoire"
+    },
+    {
+      "ortho": "film"
+    },
+    {
+      "ortho": "musique"
+    },
+    {
+      "ortho": "photo"
+    },
+    {
+      "ortho": "image"
+    },
+    {
+      "ortho": "couleur"
+    },
+    {
+      "ortho": "son"
+    },
+    {
+      "ortho": "noir"
+    },
+    {
+      "ortho": "blanc"
+    },
+    {
+      "ortho": "rouge"
+    },
+    {
+      "ortho": "bleu"
+    },
+    {
+      "ortho": "vert"
+    },
+    {
+      "ortho": "jaune"
+    },
+    {
+      "ortho": "rose"
+    },
+    {
+      "ortho": "marron"
+    },
+    {
+      "ortho": "gris"
+    },
+    {
+      "ortho": "violet"
+    },
+    {
+      "ortho": "facile"
+    },
+    {
+      "ortho": "difficile"
+    },
+    {
+      "ortho": "possible"
+    },
+    {
+      "ortho": "impossible"
+    },
+    {
+      "ortho": "important"
+    },
+    {
+      "ortho": "intéressant"
+    },
+    {
+      "ortho": "différent"
+    },
+    {
+      "ortho": "pareil"
+    },
+    {
+      "ortho": "public"
+    },
+    {
+      "ortho": "privé"
+    },
+    {
+      "ortho": "malade"
+    },
+    {
+      "ortho": "fatigué"
+    },
+    {
+      "ortho": "heureux"
+    },
+    {
+      "ortho": "triste"
+    },
+    {
+      "ortho": "content"
+    },
+    {
+      "ortho": "fâché"
+    },
+    {
+      "ortho": "nerveux"
+    },
+    {
+      "ortho": "calme"
+    },
+    {
+      "ortho": "prêt"
+    },
+    {
+      "ortho": "occupé"
+    },
+    {
+      "ortho": "simple"
+    },
+    {
+      "ortho": "rapide"
+    },
+    {
+      "ortho": "lent"
+    },
+    {
+      "ortho": "tôt"
+    },
+    {
+      "ortho": "tard"
+    },
+    {
+      "ortho": "haut"
+    },
+    {
+      "ortho": "bas"
+    },
+    {
+      "ortho": "large"
+    },
+    {
+      "ortho": "étroit"
+    },
+    {
+      "ortho": "plein"
+    },
+    {
+      "ortho": "vide"
+    },
+    {
+      "ortho": "vrai"
+    },
+    {
+      "ortho": "faux"
+    },
+    {
+      "ortho": "juste"
+    },
+    {
+      "ortho": "injuste"
+    },
+    {
+      "ortho": "propre"
+    },
+    {
+      "ortho": "sale"
+    },
+    {
+      "ortho": "ouvert"
+    },
+    {
+      "ortho": "fermé"
+    },
+    {
+      "ortho": "libre"
+    },
+    {
+      "ortho": "coeur"
+    },
+    {
+      "ortho": "tête"
+    },
+    {
+      "ortho": "corps"
+    },
+    {
+      "ortho": "visage"
+    },
+    {
+      "ortho": "main"
+    },
+    {
+      "ortho": "bras"
+    },
+    {
+      "ortho": "jambe"
+    },
+    {
+      "ortho": "pied"
+    },
+    {
+      "ortho": "dos"
+    },
+    {
+      "ortho": "ventre"
+    },
+    {
+      "ortho": "argent"
+    },
+    {
+      "ortho": "prix"
+    },
+    {
+      "ortho": "cadeau"
+    },
+    {
+      "ortho": "magasin"
+    },
+    {
+      "ortho": "marché"
+    },
+    {
+      "ortho": "banque"
+    },
+    {
+      "ortho": "carte"
+    },
+    {
+      "ortho": "billet"
+    },
+    {
+      "ortho": "ticket"
+    },
+    {
+      "ortho": "facture"
+    },
+    {
+      "ortho": "docteur"
+    },
+    {
+      "ortho": "hôpital"
+    },
+    {
+      "ortho": "médicament"
+    },
+    {
+      "ortho": "maladie"
+    },
+    {
+      "ortho": "douleur"
+    },
+    {
+      "ortho": "santé"
+    },
+    {
+      "ortho": "police"
+    },
+    {
+      "ortho": "pompiers"
+    },
+    {
+      "ortho": "poste"
+    },
+    {
+      "ortho": "mairie"
+    },
+    {
+      "ortho": "train"
+    },
+    {
+      "ortho": "bus"
+    },
+    {
+      "ortho": "métro"
+    },
+    {
+      "ortho": "avion"
+    },
+    {
+      "ortho": "bateau"
+    },
+    {
+      "ortho": "vélo"
+    },
+    {
+      "ortho": "taxi"
+    },
+    {
+      "ortho": "route"
+    },
+    {
+      "ortho": "pont"
+    },
+    {
+      "ortho": "gare"
+    },
+    {
+      "ortho": "ordinateur"
+    },
+    {
+      "ortho": "téléphone"
+    },
+    {
+      "ortho": "internet"
+    },
+    {
+      "ortho": "email"
+    },
+    {
+      "ortho": "adresse"
+    },
+    {
+      "ortho": "numéro"
+    },
+    {
+      "ortho": "compte"
+    },
+    {
+      "ortho": "mot de passe"
+    },
+    {
+      "ortho": "clé"
+    },
+    {
+      "ortho": "porte"
+    },
+    {
+      "ortho": "question"
+    },
+    {
+      "ortho": "réponse"
+    },
+    {
+      "ortho": "problème"
+    },
+    {
+      "ortho": "solution"
+    },
+    {
+      "ortho": "idée"
+    },
+    {
+      "ortho": "projet"
+    },
+    {
+      "ortho": "travail"
+    },
+    {
+      "ortho": "poste"
+    },
+    {
+      "ortho": "métier"
+    },
+    {
+      "ortho": "emploi"
+    },
+    {
+      "ortho": "aider"
+    },
+    {
+      "ortho": "réussir"
+    },
+    {
+      "ortho": "échouer"
+    },
+    {
+      "ortho": "oublier"
+    },
+    {
+      "ortho": "se souvenir"
+    },
+    {
+      "ortho": "penser"
+    },
+    {
+      "ortho": "croire"
+    },
+    {
+      "ortho": "espérer"
+    },
+    {
+      "ortho": "attendre"
+    },
+    {
+      "ortho": "essayer"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<div class="ex-card">
+  <div layout="column">
+    <div layout="row" layout-align="start start">
+      <md-button class="md-fab md-primary hearing" aria-label="Pronounce current exercise" ng-click="pronounce()">
+        <md-icon md-font-set="material-icons">hearing</md-icon>
+      </md-button>
+
+      <div class="word-def" style="margin-left:12px">
+        <div><strong>Exercise {{activityNumber}}</strong> / {{exercises.length || 0}}</div>
+
+        <div class="ipa-toggles">
+          <md-switch ng-model="showPron" class="md-primary" ng-change="persistShowPron()">
+            Show IPA (dictated)
+          </md-switch>
+          <md-switch ng-model="showTypedPron" class="md-primary" ng-change="persistShowTyped()">
+            Show IPA (typed)
+          </md-switch>
+        </div>
+
+        <div class="ipa-row" ng-show="showTypedPron && typedIpa">
+          <div class="ipa-label">IPA (typed):</div>
+          <div class="ipa-value">{{typedIpa}}</div>
+        </div>
+        <div class="ipa-row" ng-show="showPron && currentEx().ipa">
+          <div class="ipa-label">IPA:</div>
+          <div class="ipa-value">{{currentEx().ipa}}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Input row with a button to speak the *typed* word -->
+    <div class="input-ortho" layout="row" layout-align="start center">
+      <md-input-container class="md-block" flex>
+        <label>Type what you hear</label>
+        <input id="orthoInput"
+               type="text"
+               ng-model="vm.ortho"
+               ng-change="loadTypedIpa()"
+               ng-keypress="$event.keyCode==13 && nextEx()"
+               autofocus>
+        <div class="accent-toolbar">
+          <span class="accent-label">Accents:</span>
+          <button type="button" class="accent-btn" onclick="insertAccent('é')">é</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('è')">è</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('ê')">ê</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('ë')">ë</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('à')">à</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('â')">â</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('ç')">ç</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('î')">î</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('ï')">ï</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('ô')">ô</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('ö')">ö</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('ù')">ù</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('û')">û</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('œ')">œ</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('æ')">æ</button>
+          <button type="button" class="accent-btn" onclick="insertAccent('’')">’</button>
+        </div>
+
+      </md-input-container>
+      <md-button class="md-fab md-mini md-primary hearing-typed"
+                 aria-label="Pronounce typed word"
+                 ng-click="typedPronounce()"
+                 ng-disabled="!vm.ortho">
+        <md-icon md-font-set="material-icons">hearing</md-icon>
+      </md-button>
+    </div>
+
+    <!-- Accent toolbar (CLICKABLE) -->
+    <div class="accent-toolbar" layout="row" layout-wrap layout-align="start center">
+      <span class="accent-hint">Accents:</span>
+      <md-button
+        class="md-mini md-raised accent-btn"
+        ng-repeat="ch in accentChars track by $index"
+        ng-click="insertAccent(ch)">{{ch}}</md-button>
+    </div>
+
+    <div layout="row" layout-align="start center" class="ex-progress">
+      <md-button class="md-raised md-primary" ng-click="nextEx()">Next</md-button>
+      <span style="margin-left:16px">Good: {{goodEx}} | Bad: {{badEx}}</span>
+    </div>
+  </div>
+</div>

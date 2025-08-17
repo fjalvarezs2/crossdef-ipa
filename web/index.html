@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="frenchEx" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FrenchEx (recovered)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/french_ex.css">
+
+    <!-- vendor CSS (CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-table/1.0.0/ng-table.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+  </head>
+  <body class="body-style" ng-controller="phonetiqueController" ng-cloak>
+    <md-toolbar class="md-primary header-toolbar">
+      <div class="md-toolbar-tools header-tools" layout="row" layout-align="space-between center">
+        <!-- LEFT: home + list select -->
+        <div class="left-tools" layout="row" layout-align="start center">
+          <md-button class="md-icon-button header-icon" aria-label="Home" ng-click="restart()">
+            <md-icon md-font-set="material-icons">home</md-icon>
+          </md-button>
+          <md-input-container class="header-select">
+            <md-select ng-model="selectedWordList" ng-change="loadWordList(selectedWordList)" aria-label="Select List">
+              <md-option ng-repeat="(key, value) in wordLists" ng-value="key">
+                {{value}}
+              </md-option>
+            </md-select>
+          </md-input-container>
+        </div>
+
+        <!-- CENTER: replay -->
+        <div class="center-tools" layout="row" layout-align="center center">
+          <md-button class="md-icon-button header-icon" aria-label="Replay" ng-click="restart()">
+            <md-icon md-font-set="material-icons">refresh</md-icon>
+          </md-button>
+        </div>
+
+        <!-- RIGHT: title + name + logo -->
+        <div class="right-tools" layout="row" layout-align="end center">
+          <div class="header-title">French Spelling Exercises from</div>
+          <md-button class="md-raised md-white brand-badge" disabled>FRANCISCO ALVAREZ</md-button>
+          <img class="brand-logo" src="lib/logo3.gif" alt="CROSSDEF">
+        </div>
+      </div>
+    </md-toolbar>
+
+    <div layout="row" layout-align="center start" style="padding: 12px;">
+      <div id="ex-trend" class="chart" flex="33" ng-include="'lib/exercise-trend.html'"></div>
+      <div id="parent-ex-card" flex="33" ng-include="'lib/exercise-card.html'"></div>
+      <div class="mistakes-container" flex="33" ng-include="'lib/exercise-mistakes.html'"></div>
+    </div>
+
+    <!-- vendor JS (CDN) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-table/1.0.0/ng-table.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-chart.js/1.1.1/angular-chart.min.js"></script>
+
+    <!-- app -->
+    <script src="lib/french_ex.js"></script>
+
+    <script>
+      function insertAccent(ch) {
+        var el = document.getElementById('orthoInput');
+        if (!el) return;
+        try {
+          // insert/replace at selection and move caret to end of insertion
+          el.setRangeText(ch, el.selectionStart, el.selectionEnd, 'end');
+        } catch (e) {
+          // fallback for very old browsers
+          var start = el.selectionStart || 0, end = el.selectionEnd || 0;
+          var v = el.value || '';
+          el.value = v.slice(0, start) + ch + v.slice(end);
+          var pos = start + ch.length;
+          el.setSelectionRange(pos, pos);
+        }
+        // tell Angular the input changed so ng-model + ng-change update
+        el.dispatchEvent(new Event('input', { bubbles: true }));
+        el.focus();
+      }
+    </script>
+
+  </body>
+</html>
