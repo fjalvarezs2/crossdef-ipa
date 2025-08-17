@@ -1,42 +1,29 @@
-# Crossdef (recovered) — IntelliJ-friendly project
+# crossdef-ipa
 
-This project packages the recovered AngularJS (static) frontend and a small Node/Express backend
-that calls `espeak` for IPA, so you can run everything locally and start extending it in IntelliJ.
+French spelling exercises with live **IPA** transcription.  
+**Frontend:** AngularJS + Angular Material · **Backend:** Node/Express + `espeak`
 
-## Prerequisites
-- **Node.js 18+** (IntelliJ will detect it), `npm`
-- **espeak** CLI (`brew install espeak` on macOS)
+## ✨ Features
+- Frequency-based **Levels 1–5** (top 8k French words; JSON in `web/lib/level-*.json`)
+- **Difficult words** set for common French spelling traps (`web/lib/difficult-1.json`)
+- Live **IPA** via `espeak` backend: `GET /cgi-bin/transcriptioner?lang=fr&word=...`
+- **TTS**: speak current exercise + speak typed word (Web Speech API)
+- **Toggles**: Show/Hide IPA (dictated / typed), preference saved locally
+- **Accent toolbar**: click to insert é/è/ê/à/ç/œ/… into the input
+- Clean UI: aligned IPA rows & tidy mistakes table
 
-## Run (from CLI)
+## 🚀 Quick start
+
+### Requirements
+- Node.js 18+ and npm
+- `espeak` CLI  
+  macOS (Homebrew): `brew install espeak`
+
+### Install & run (two processes)
 ```bash
 npm install
-npm run dev
-# web: http://localhost:8080
-# api: http://localhost:3000/cgi-bin/transcriptioner?lang=fr&word=bonjour
-```
+# API on 3000, web on 8081 (no cache)
+npm run serve:api
+npx http-server web -p 8081 -c-1
+# open http://localhost:8081
 
-## Run (from IntelliJ IDEA)
-1. **File → Open…** and select this folder. IntelliJ will index the project from `package.json`.
-2. Open **package.json**, click the green run icons next to the scripts:
-   - `serve:api` to start the IPA backend
-   - `serve:web` to serve the static frontend
-   - or `dev` to run both at once (requires the devDependencies installed)
-3. Go to **http://localhost:8080** in your browser.
-
-## Project layout
-```
-server/transcriptioner.js   # Node/Express backend (uses espeak --ipa)
-web/index.html              # Frontend entry (AngularJS 1.x)
-web/lib/french_ex.js        # App logic (recovered)
-web/lib/french_ex.css       # Styles (your CSS + header overrides)
-web/lib/*.html              # Partials (exercise-*.html)
-web/lib/*.json              # Word lists + ipa.json (sample data)
-original/                   # Your original files, untouched
-extras/                     # Earlier zips (if any) included here
-```
-
-## Notes
-- `web/lib/french_ex.js` points to:
-  - `domainServer = "lib/"` for local JSON
-  - `domainEspeak = "http://localhost:3000/cgi-bin/transcriptioner"` for IPA
-- Replace the sample JSON lists with your real ones when you have them.
